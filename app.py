@@ -29,4 +29,4 @@ def test():
 
 @app.route('/name')
 def get_name():
-    return 'WOW, TEST!'
+    return 'WOW, THE NAME IS ' + result
